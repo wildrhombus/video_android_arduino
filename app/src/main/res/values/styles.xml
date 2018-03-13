@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style name="MaxDeanBlinkyTextBase" parent="@android:style/TextAppearance.Medium">
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:typeface">sans</item>
+		<item name="android:textSize">24dip</item>
+		<item name="android:textColor">@color/MaxDeanBlinkyTextWhite</item>
+		<item name="android:background">@null</item>
+		<item name="android:includeFontPadding">false</item>
+	</style>
+	<style name="MaxDeanBlinkyControlLabel" parent="@style/MaxDeanBlinkyTextBase">
+		<item name="android:textSize">15dip</item>
+		<item name="android:textColor">@color/MaxDeanBlinkyLabelGray</item>
+		<item name="android:includeFontPadding">true</item>
+		<item name="android:layout_height">25dip</item>
+		<item name="android:lineSpacingExtra">2dip</item>
+	</style>
+	<style name="MaxDeanBlinkyControlLightLowerLabel" parent="@style/MaxDeanBlinkyTextBase">
+		<item name="android:layout_marginTop">-2dip</item>
+		<item name="android:textSize">15dip</item>
+		<item name="android:textColor">@color/MaxDeanBlinkyTextWhite</item>
+	</style>
+	<style name="MaxDeanBlinkyControlLightLowerLabelConst" parent="@style/MaxDeanBlinkyControlLightLowerLabel">
+		<item name="android:textColor">@color/MaxDeanBlinkyLabelGray</item>
+	</style>
+	<style name="MaxDeanBlinkyMeasurement" parent="@style/MaxDeanBlinkyTextBase">
+		<item name="android:textSize">40dip</item>
+		<item name="android:layout_marginTop">-8dip</item>
+		<item name="android:layout_marginBottom">0dip</item>
+		<item name="android:layout_gravity">top</item>
+	</style>
+	<style name="MaxDeanBlinkyNoDevice" parent="@style/MaxDeanBlinkyTextBase">
+		<item name="android:textSize">30dip</item>
+	</style>
+	<style name="MaxDeanBlinkyMeasurementSuffix" parent="@style/MaxDeanBlinkyMeasurement">
+		<item name="android:textSize">20dip</item>
+	</style>
+</resources>

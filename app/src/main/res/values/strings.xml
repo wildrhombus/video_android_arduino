@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">MaxDeanBlinky</string>
+	<string name="no_device">Please connect a Sensor board.</string>
+	<string name="off">Off</string>
+	<string name="on">On</string>
+	<string name="ticker_text">sensor connected</string>
+	<string name="notification_title">Blinky</string>
+	<string name="notification_message">Blinky Sensor</string>
+</resources>
