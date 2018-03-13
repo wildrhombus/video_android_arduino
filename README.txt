@@ -10,5 +10,5 @@ It was originally created in Eclipse and currently needs to be upgraded to Andro
 
 The only device that this has been tested on is a Nexus 7.
 
-The arduino code is published in the BlinkyArduino repository.
+The arduino code is published in the arduino-btn-android repository.
 
